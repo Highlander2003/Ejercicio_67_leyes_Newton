@@ -1,4 +1,6 @@
 Ejercicio_67_leyes_Newton
+
+
 -Cálculo de Fuerza Horizontal
 Este programa en Python permite calcular la fuerza horizontal necesaria para mantener dos objetos fijos en relación con un objeto base, dados sus valores de masa.
 
