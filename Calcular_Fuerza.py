@@ -13,7 +13,7 @@ def calcular_fuerza_horizontal():
     fuerza_horizontal = round((masa_objeto2 + masa_objeto3) * masa_objeto1 * 9.8, 2)
 
     # Mostrar el resultado en una ventana emergente
-    messagebox.showinfo("Resultado", "La fuerza horizontal necesaria para mantener la masa 1 y masa 2 fijos en relación con el carretón es: {} N".format(fuerza_horizontal))
+    messagebox.showinfo("Resultado", "La fuerza horizontal necesaria para mantener la masa 1 y masa 2 fijos en relación con el carretón es: \n={} N".format(fuerza_horizontal))
 
     # Llamar a la función de animación
     animar()
@@ -88,17 +88,17 @@ root.title("Fuerza Horizontal")
 root.geometry("300x200")  # Tamaño de la ventana emergente (ancho x alto)
 
 # Etiquetas y campos de entrada para las masas
-label_carretonm = tk.Label(root, text="Masa del carreton:")
+label_carretonm = tk.Label(root, text="Masa del carreton(Kg):")
 label_carretonm.pack()
 entry_carretonm = tk.Entry(root)
 entry_carretonm.pack()
 
-label_objeto2 = tk.Label(root, text="Masa m1 (masa sobre el carreton):")
+label_objeto2 = tk.Label(root, text="Masa m1 (masa sobre el carreton (Kg)):")
 label_objeto2.pack()
 entry_objeto2 = tk.Entry(root)
 entry_objeto2.pack()
 
-label_objeto3 = tk.Label(root, text="Masa m3 (masa colgando del carreton):")
+label_objeto3 = tk.Label(root, text="Masa m3 (masa colgando del carreton(Kg)):")
 label_objeto3.pack()
 entry_objeto3 = tk.Entry(root)
 entry_objeto3.pack()
@@ -109,5 +109,3 @@ btn_calcular.pack()
 
 # Ejecutar la ventana principal
 root.mainloop()
-
-
