@@ -16,6 +16,10 @@ Este programa en Python permite calcular la fuerza horizontal necesaria para man
   5. Ingresa las masas de los objetos en los campos correspondientes y haz clic en el botón "Calcular fuerza horizontal".
   6. El programa calculará la fuerza horizontal necesaria y mostrará el resultado en otra ventana emergente.
 
+-En caso de no tener la librerias instaladas debera intalarlas
+  1. pip install pygame
+  2. pip install tkinter
+
 -Detalles del Cálculo
   El cálculo de la fuerza horizontal se realiza utilizando la siguiente fórmula:
 
